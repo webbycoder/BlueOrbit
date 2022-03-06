@@ -178,7 +178,7 @@ input{
     height: 50px;float: left; padding: 7px;
 }
 #magic{
-    background:#000 url("../img/un3.gif") no-repeat center;
+    background:#000 url("../img/un.gif") no-repeat center;
     z-index: 1;
     background-size: cover;
     position: fixed;
