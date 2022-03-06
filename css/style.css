@@ -3,46 +3,37 @@
 ul {
     margin-right: 60px;
 }
-
 ul a:hover {
-    color: #0fac0f;
     transform: scale(1.1);
     transition: 0.5s  linear;
 }
-
 ul  a::after {
     display: block;
     content: '';
-    width: 0px;
+    width: 0;
     height: 2px;
     background-color: rgb(247, 241, 241);
     transition: 0.5s ;
 }
-
 ul a:hover::after {
     transition: .5s ;
     width: 100%;
 }
-
 a i {transition: 0.5s linear;}
-.fa {border: 1px solid white;border-radius: 50%;padding: 10px;margin: 0 2px;color: whitesmoke;}
-.fa:hover {transform: scale(1.1);background-color: white;transition: all .3s linear;}
+.fa {border: .5px solid hsl(258, 90%, 80%);border-radius: 50%;padding: 10px;margin: 0 2px;color: white;transition: all .5s linear;}
+.fa:hover {transform: scale(1.1);background-color: white;transition: all .5s linear;box-shadow: 0 0 10px 4px #09207ea8 inset; border: none;}
 .fa-facebook {
     padding:10px 13px;
 }
-
 .fa-facebook:hover {
     color: #161aeb;
 }
-
 .fa-instagram:hover {
     color: hsl(331, 86%, 50%);
 }
-
 .fa-youtube-play:hover {
     color: red;
 }
-
 .fa-twitter:hover {
     color: hsl(201, 53%, 78%);
 }
