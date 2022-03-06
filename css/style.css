@@ -134,6 +134,7 @@ nav {
     box-shadow: 2px 2px 5px 5px inset white;
 } */
 /* ------------END GALLERY--------------------- */
+
 /* ---------start contact us-------------- */
 #contact{
     background-color: #111bdb;float: left;height: 15rem;text-align: center;
@@ -154,6 +155,10 @@ nav {
 .conh5{
     margin-top: 1rem;
     color: white;
+}
+input{
+    /* margin: 10px; */
+    padding: 10px;
 }
 /* --------end contact us------------ */
 /* ------------start footer------ */
