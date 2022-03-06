@@ -1,4 +1,29 @@
 /* ---------------------START MENU----------------- */
+
+ul {
+    margin-right: 60px;
+}
+
+ul a:hover {
+    color: #0fac0f;
+    transform: scale(1.1);
+    transition: 0.5s  linear;
+}
+
+ul  a::after {
+    display: block;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: rgb(247, 241, 241);
+    transition: 0.5s ;
+}
+
+ul a:hover::after {
+    transition: .5s ;
+    width: 100%;
+}
+
 a i {transition: 0.5s linear;}
 .fa {border: 1px solid white;border-radius: 50%;padding: 10px;margin: 0 2px;color: whitesmoke;}
 .fa:hover {transform: scale(1.1);background-color: white;transition: all .3s linear;}
@@ -22,29 +47,6 @@ a i {transition: 0.5s linear;}
     color: hsl(201, 53%, 78%);
 }
 
-ul {
-    margin-right: 60px;
-}
-
-ul li:hover {
-    color: #2a2c2a;
-    transform: scale(1.1);
-    transition: 0.9s linear;
-}
-
-ul li::after {
-    display: block;
-    content: '';
-    width: 0px;
-    height: 2px;
-    background-color: rgb(247, 241, 241);
-    transition: 0.4s;
-}
-
-ul li:hover::after {
-    transition: .4s;
-    width: 90%;
-}
 /* -------------------END MENU----------------- */
 /* ---------------------SECOND PART----------- */
 #secondimg{
