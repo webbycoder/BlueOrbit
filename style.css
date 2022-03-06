@@ -1,0 +1,183 @@
+/* ---------------------START MENU----------------- */
+a i {transition: 0.5s linear;}
+.fa {border: 1px solid white;border-radius: 50%;padding: 10px;margin: 0 2px;color: whitesmoke;}
+.fa:hover {transform: scale(1.1);background-color: white;transition: all .3s linear;}
+.fa-facebook {
+    padding:10px 13px;
+}
+
+.fa-facebook:hover {
+    color: #161aeb;
+}
+
+.fa-instagram:hover {
+    color: hsl(331, 86%, 50%);
+}
+
+.fa-youtube-play:hover {
+    color: red;
+}
+
+.fa-twitter:hover {
+    color: hsl(201, 53%, 78%);
+}
+
+ul {
+    margin-right: 60px;
+}
+
+ul li:hover {
+    color: #2a2c2a;
+    transform: scale(1.1);
+    transition: 0.9s linear;
+}
+
+ul li::after {
+    display: block;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: rgb(247, 241, 241);
+    transition: 0.4s;
+}
+
+ul li:hover::after {
+    transition: .4s;
+    width: 90%;
+}
+/* -------------------END MENU----------------- */
+/* ---------------------SECOND PART----------- */
+#secondimg{
+    height: 650px; margin-left: 730px; margin-top: -50px;
+}
+.ptxt1 {
+    position: absolute;
+    bottom: 400px;
+    left: 180px;
+    /* right: 30px; */
+    color: white;
+}
+
+.ptxt2 {
+    position: absolute;
+    bottom: 360px;
+    left: 180px;
+    /* right: 30px; */
+    color: white;
+}
+
+.ptxt3 {
+    position: absolute;
+    bottom: 320px;
+    left: 180px;
+    /* right: 30px; */
+    color: white;
+}
+
+.ptxt4 {
+    position: absolute;
+    bottom: 280px;
+    left: 180px;
+    /* right: 30px; */
+    color: white;
+}
+#btn{
+    color: rgb(233, 229, 229); border-radius: 10px; background-color: #161aeb; position: absolute;
+    bottom: 200px;
+    left: 230px;
+    padding: 10px;
+    font-weight: 600;
+}
+#btn:hover {
+    box-shadow: 2px 2px 5px 5px white;
+}
+/* ---------------END SECOND PART------------- */
+/* ---------------------------------------- */
+nav {
+    background-color: #09207e;
+}
+/* --------------------------------------------- */
+/* -----------------START ABOUT------------- */
+.about {
+    background-image: linear-gradient(to bottom left, #04020f, #19193a,#040b45 60%, #162f93 40%)
+}
+.about p {color: white;/* margin-right: 500px; */margin-left: 500px;position: absolute;bottom: -350px;left: 180px; right: 30px;}
+.about h2 {color: white;position: absolute;bottom: -170px;left: 700px;} 
+/* ---------------END ABOUT------------------- */
+#port1{margin: auto;background-color:#112774;}
+#port2{margin: auto;background-color:#112774;}
+#port3{margin: auto;background-color:#112774;}
+#jet{
+    height: 400px;
+    width:650px;
+    /* padding:0px 0px 90px 0px; */
+    transform: skew(35deg);
+    /* margin-right: 100px; */
+}
+.newletter {background-image: linear-gradient(to bottom right,#040108,#02062c 60%, #080e5b 40%);height:600px;}
+#course{color: white;margin-left: 80px;margin-top: 50px;}
+.clh5{color: white;text-align: center;}
+/* --------------START PORTFOLIO------------ */
+/* -------------------END PORTFOLIO-------------- */
+/* ----------------START COURS--------- */
+
+
+/* -----------START GALLERY----------------- */
+.row1{
+    min-height:250px;width:100%;margin-top:20px;margin-left:10px
+}
+#Gah2{
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: auto;
+    padding: 5px;
+    background-color: #161aeb;
+}
+.img{
+    height:250px;width:300px;
+}
+/* .img :hover{
+    box-shadow: 2px 2px 5px 5px inset white;
+} */
+/* ------------END GALLERY--------------------- */
+/* ---------start contact us-------------- */
+#contact{
+    background-color: #111bdb;float: left;height: 15rem;text-align: center;
+}
+#Gah3{
+    text-align: center;
+    height: 5rem;
+    width: auto;
+    margin-top: 50px;
+    color: white;
+    /* background-color: #11112d; */
+}
+.contactush6{
+    margin-top: 1rem;
+    color: white;
+    width: 100%;
+}
+.conh5{
+    margin-top: 1rem;
+    color: white;
+}
+/* --------end contact us------------ */
+/* ------------start footer------ */
+#footer{
+    background-color: black;
+    height: 4rem;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 1rem;
+}
+
+#gmail{
+    height: 50px;float: left;
+}
+#ficon{
+    height: 50px;float: left; padding: 7px;
+}
+/* ------------end footer--------------- */
+
